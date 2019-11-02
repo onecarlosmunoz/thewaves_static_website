@@ -1549,6 +1549,10 @@ ul {
     padding-bottom: 10px;
   }
 
+  .double-images {
+    margin-bottom: 15px;
+  }
+
   .double-images img {
     width: 200px;
   }
@@ -1612,7 +1616,7 @@ ul {
   }
 
   .container-50 {
-    width: 310px;
+    width: 360px;
   }
 
   #home-showcase {
@@ -1736,7 +1740,7 @@ ul {
   }
 
   .double-images img {
-    width: 125px;
+    width: 160px;
   }
 
   .staff-container .box {
@@ -1805,5 +1809,25 @@ ul {
 
   .design {
     text-align: center;
+  }
+}
+
+@media(max-width:400px) {
+  .container-50 {
+    width: 330px;
+  }
+
+  .double-images img {
+    width: 140px;
+  }
+} 
+
+@media(max-width:350px) {
+  .container-50 {
+    width: 290px;
+  }
+
+  .double-images img {
+    width: 120px;
   }
 }
